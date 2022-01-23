@@ -7,4 +7,16 @@
     align-items: center;
     justify-content: space-bewteen;
     flex-direction: row;
+    font-family: 'Poppins', sans-serif;
+
+&-heading {
+    h1 {
+        margin-left: 20px;
+        font-size: 2rem;
+
+        span {
+            color: #ffd900;
+        }
+    }
+  }
 }
