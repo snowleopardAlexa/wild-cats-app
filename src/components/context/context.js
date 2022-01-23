@@ -10,7 +10,7 @@ export const AppContext = ({ children }) => {
     const [randomCats, setRandomCats] = useState([]);
 
     const fetchHomePageCats = useCallback((searchTerm) => {
-       axios.get(`http://localhost:8000/cats/${searchTerm}`).then(res => {
+       axios.get(`http://localhost:8000/cats`).then(res => {
            console.log(res.data);
        })
     }, [])

@@ -1,46 +1,25 @@
 {
-    "cats": [
-        {
+    "cats": [{
+        "lion": [{
             "id": 1,
             "species": "Lion",
             "habitant": "Africa",
             "left": 3000,
             "status": "Endangered"
-        },
-        {
-            "id": 1,
+        }],
+        "tiger": [{
+            "id": 2,
             "species": "Tiger",
             "habitant": "Asia",
             "left": 1000,
             "status": "Endangered"
-        },
-        {
-            "id": 1,
+        }],
+        "snow leopard": [{
+            "id": 2,
             "species": "Snow Leopard",
             "habitant": "Asia",
-            "left": 3000,
+            "left": 1000,
             "status": "Endangered"
-        },
-        {
-            "id": 1,
-            "species": "Leopard",
-            "habitant": "Africa",
-            "left": 3000,
-            "status": "Endangered"
-        },
-        {
-            "id": 1,
-            "species": "Cheetah",
-            "habitant": "Africa",
-            "left": 3000,
-            "status": "Endangered"
-        },
-        {
-            "id": 1,
-            "species": "Serval",
-            "habitant": "Africa",
-            "left": 3000,
-            "status": "Endangered"
-        }
-    ]
+        }]
+    }]
 }
