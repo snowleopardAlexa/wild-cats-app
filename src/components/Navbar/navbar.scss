@@ -19,4 +19,23 @@
         }
     }
   }
+
+&-links {
+    ul {
+        display: flex;
+        list-style: none;
+    }
+
+    a {
+        color: #f3e9e9;
+        text-decoration: none;
+        margin: 0px 10px;
+        padding: 10px;
+        background: rgb(177, 4, 4);
+        border-radius: 5px;
+        font-size: 1rem;
+    }
+  }
+
+/* end of navbar */    
 }
