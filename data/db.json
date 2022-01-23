@@ -1,0 +1,46 @@
+{
+    "cats": [
+        {
+            "id": 1,
+            "species": "Lion",
+            "habitant": "Africa",
+            "left": 3000,
+            "status": "Endangered"
+        },
+        {
+            "id": 1,
+            "species": "Tiger",
+            "habitant": "Asia",
+            "left": 1000,
+            "status": "Endangered"
+        },
+        {
+            "id": 1,
+            "species": "Snow Leopard",
+            "habitant": "Asia",
+            "left": 3000,
+            "status": "Endangered"
+        },
+        {
+            "id": 1,
+            "species": "Leopard",
+            "habitant": "Africa",
+            "left": 3000,
+            "status": "Endangered"
+        },
+        {
+            "id": 1,
+            "species": "Cheetah",
+            "habitant": "Africa",
+            "left": 3000,
+            "status": "Endangered"
+        },
+        {
+            "id": 1,
+            "species": "Serval",
+            "habitant": "Africa",
+            "left": 3000,
+            "status": "Endangered"
+        }
+    ]
+}
