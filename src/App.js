@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Routes>
-       <Route path="/" element={<HomePage />} />
+       <Route path="/homepage" element={<HomePage />} />
        <Route path="/types" element={<Types />} />
        <Route path="/random" element={<RandomCat />} />
       </Routes>
