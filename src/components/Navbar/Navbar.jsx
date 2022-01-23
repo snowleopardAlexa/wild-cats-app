@@ -1,3 +1,6 @@
+import { Link } from 'react-router-dom';
+import './navbar.scss';
+
 const Navbar = () => {
   return (
     <div className="navbar">
@@ -6,9 +9,15 @@ const Navbar = () => {
       </div>  
         <div className="navbar-links">
           <ul>
-            <li>Home</li>
-            <li>Cats Types</li>
-            <li>Random</li>
+            <Link to="homepage">
+              <li>Home</li>
+            </Link>
+            <Link to="types">
+              <li>Cat Types</li>
+            </Link>
+            <Link to="random">
+              <li>Random</li>
+            </Link>
           </ul>
         </div>
       </div>

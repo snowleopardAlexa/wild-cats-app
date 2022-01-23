@@ -38,5 +38,21 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snowleopardAlexa/wild-cats-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/snowleopardAlexa/wild-cats-app/issues"
+  },
+  "homepage": "https://github.com/snowleopardAlexa/wild-cats-app#readme",
+  "devDependencies": {
+    "@vercel/node": "^1.12.1"
   }
 }
