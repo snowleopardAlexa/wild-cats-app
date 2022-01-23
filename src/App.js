@@ -12,9 +12,9 @@ function App() {
       <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="types/*" element={<Types />} />
-        <Route path="random/*" element={<RandomCat />} />
+        <Route exact path="/" element={<HomePage />} />
+        <Route exact path="types/*" element={<Types />} />
+        <Route exact path="random/*" element={<RandomCat />} />
       </Routes>
        <Footer />
      </BrowserRouter>
