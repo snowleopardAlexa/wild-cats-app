@@ -6,18 +6,19 @@ export const myContext = createContext();
 export const AppContext = ({ children }) => {
 
     const [cats, setCats] = useState([]);
-    const [types, setTypes] = useState([]);
-    const [randomCats, setRandomCats] = useState([]);
+    //const [types, setTypes] = useState([]);
+    //const [randomCats, setRandomCats] = useState([]);
 
-    const fetchHomePageCats = useCallback((searchTerm) => {
-       axios.get(`http://localhost:8000/cats`).then(res => {
+    const fetchHomePageCats = useCallback(() => {
+       axios.get(``).then((res) => {
            console.log(res.data);
+           setCats(res.data);
        })
     }, [])
 
 
    return (
-       <myContext.Provider value={{ fetchHomePageCats }}>{ children }</myContext.Provider>
+       <myContext.Provider value={{ fetchHomePageCats, cats }}>{ children }</myContext.Provider>
    );
 }
 

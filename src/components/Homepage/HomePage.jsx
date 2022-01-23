@@ -5,7 +5,7 @@ import myContext from '../context/context';
 const HomePage = () => {
 
   const [searchTerm, setSearchTerm] = useState("");  
-  const { fetchHomePageCats } = useContext(myContext);
+  const { fetchHomePageCats, cats } = useContext(myContext);
 
   const fetchCatsHandler = useCallback(() => {
     fetchHomePageCats(searchTerm);
@@ -21,7 +21,19 @@ const HomePage = () => {
          <button onClick={fetchCatsHandler}>Search Cat</button>
       </div>
       <div className="homepage-cats">
-
+         {cats? (
+           cats.map((cat) => (
+             <div className="homepage-cats-grid" key={cat.id}>
+             <img src={cat.img} alt="#" />
+             <h4>{cat.name}</h4>  
+             <h4>{cat.habitant}</h4> 
+             <h4>{cat.left}</h4>   
+             <h4>{cat.status}</h4>  
+             </div>
+           ))
+           ) : (
+           <h2>No cats found! Try another type of a cat...</h2>
+         )}
       </div>
     </div>
   );
