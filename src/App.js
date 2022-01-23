@@ -11,11 +11,11 @@ function App() {
     <div className="App">
       <Navbar />
       <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/types" element={<Types />} />
-        <Route path="/random" element={<RandomCat />} />
+       <Route path="/" element={<HomePage />} />
+       <Route path="/types" element={<Types />} />
+       <Route path="/random" element={<RandomCat />} />
       </Routes>
-       <Footer />
+      <Footer />
     </div>
   );
 }
